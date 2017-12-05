@@ -1,0 +1,56 @@
+header{
+
+	background-color: #0275d8;
+	height: 100px;
+	margin-bottom: 35px;
+
+}
+
+span.error {
+	color: red;
+}
+
+.text-success{
+
+	text-align: center;
+}
+
+#voltar{
+
+
+	margin-bottom: 20px;
+	margin-top: 10px;
+
+}
+
+#inline{
+
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+#cadastrar-bottom{
+
+	margin-bottom: 20px;
+}
+.titulo{
+	text-align: center;
+	color: #FFF;
+	line-height: 100px;
+}
+
+.botoes{
+
+	margin-top: 30px;
+	margin-left: 400px;
+
+}
+
+.cadastrado{
+
+	margin-left: 100px;
+}
