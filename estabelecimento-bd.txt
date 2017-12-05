@@ -1,0 +1,17 @@
+CREATE TABLE estabelecimentos
+(
+  id        INT AUTO_INCREMENT
+    PRIMARY KEY,
+  razao     VARCHAR(255) NOT NULL,
+  nome      VARCHAR(255) NOT NULL,
+  CNPJ      BIGINT(11)   NOT NULL,
+  email     VARCHAR(255) NOT NULL,
+  endereco  TEXT         NOT NULL,
+  cidade    VARCHAR(255) NOT NULL,
+  estado    VARCHAR(255) NOT NULL,
+  telefone  BIGINT(11)   NOT NULL,
+  data      DATE         NOT NULL,
+  categoria VARCHAR(255) NOT NULL,
+  status    VARCHAR(255) NOT NULL
+);
+
